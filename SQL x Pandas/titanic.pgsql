@@ -15,7 +15,4 @@ create table titanic (
 
 COPY titanic FROM '/home/nelson/Desktop/Py/ds/Titanic/titanic/titanic.csv' WITH (FORMAT csv);
 
-select * from titanic;
-
-
-select name from titanic;
+select * from titanic; 
