@@ -13,6 +13,5 @@ create table titanic (
   Embarked    varchar(1)
 );
 
-COPY titanic FROM '/home/nelson/Desktop/Py/ds/Titanic/titanic/titanic.csv' WITH (FORMAT csv);
-
+COPY titanic FROM 'SUBSTITUA_PELO_CAMINHO_DO_SEU_ARQUIVO/titanic.csv' DELIMITER ',' CSV HEADER;
 select * from titanic; 
